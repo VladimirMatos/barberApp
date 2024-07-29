@@ -1,0 +1,47 @@
+package com.barberapp.servicePrice.resource;
+
+import com.barberapp.servicePrice.dto.request.ServicePriceRequestDto;
+import com.barberapp.servicePrice.dto.response.ServicePriceResponseDto;
+import com.barberapp.servicePrice.service.ServicePriceService;
+import com.barberapp.utils.PaginationResponseDto;
+import jakarta.inject.Inject;
+import jakarta.validation.Valid;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.Response;
+import org.bson.types.ObjectId;
+
+import static jakarta.ws.rs.core.MediaType.APPLICATION_JSON;
+
+@Path("/servicePrice")
+@Produces(APPLICATION_JSON)
+public class ServicePriceResource {
+
+    ServicePriceService servicePriceService;
+
+    @Inject
+    public ServicePriceResource(ServicePriceService servicePriceService) {
+        this.servicePriceService = servicePriceService;
+    }
+
+    @GET
+    public Response getAllService(@QueryParam("page") @DefaultValue("1") int page, @QueryParam("totalResult") @DefaultValue("5") int totalResult){
+        PaginationResponseDto<ServicePriceResponseDto> services =  servicePriceService.getAllService(page, totalResult);
+
+        return  Response.ok().entity(services).build();
+    }
+
+    @GET
+    @Path("/{id}")
+    public Response getOneService(@PathParam("id") String id){
+
+        return servicePriceService.getOneById(new ObjectId(id));
+
+    }
+
+    @POST
+    public Response createServicePrice(@Valid ServicePriceRequestDto category){
+
+        return servicePriceService.createServicePrice(category);
+
+    }
+}

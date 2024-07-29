@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "barberapp-430614",
+  "private_key_id": "4da0d2825a21070844a25bb22d9eb2350710e8da",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCykdZZDS1sk+Xr\nopoNt482NVEcbEPNT5Eng5N5P6nJ2nzsLEfA7QgPkv+THY9Pvvm7XaugsdMqPQWr\nJDYACtMmDrfvwMcfnpeYljDroYCSA8RzEg7lOBfCghYqkjkkEYYFcaiAdMpU0vm4\nkBx98nUzsUxoDTS3A4ecN5hyQFSYMZz+hzlRjv8BH+FETzvySvXK7T0WPVa209eU\ndsv/VVNB2uu4B5N8VQD5LYORnkgm9HGSKF+o0GX8Ecl/RxarHaUm3xswHauiJa4I\nYvzeieBeWyY0r0C3/bb44mhOBdxcl64/KsbHXhIMESi3h7BQAxyWzYqN/kHaWFLQ\nkoMAAp/1AgMBAAECggEACgjRcXwg1RTjiu/+da5etRZeajk4PymNN9n4N8xIy3/E\nXNYpKxF2zj89ruPumXXbHTkIi7VqbxlyP9l/UlXJYz5Y/jdISUHVdXzdH2SaL7pX\n9/poDV/vT94VBkvku57jd9tY82z8sLMRVtp8S2SMSv0X1NIHKBCh9niWT7dHOa0a\nAwSFXZ0btkmHBVoujgdwj9z7/IvmW2w1ED4Va02DSUDngLfjm3sjnjsKjI7KTrSV\nQtMDxVCiv8Qg3YPfKjNBAtf19716trZHr1BlIarxYD46WdNdsl6K53CYy9HCiCm3\ny745v7MiYba3AjQ+5fhYnDSw3k+M2ME/oK8dgRL9cQKBgQDapGJqWX5DXZtmZH7Q\nif2rr5CJD/hb9RguxFqEV8kAhrqQ+quhGLuoBY7TIbEUF1cCVaEeY9/JJWjtX+Vb\njELWh37ItLKxOLoPUMIVXZwLLOpVkqvVMOz/j72jMwxitRdVl3eRQpePMkSenZZQ\nUfrxI1DxiLvaTmN2CB9uHAoE0QKBgQDRFKVG8IZlcxW5Uqu0pHLa5ju/OzqlaCSx\n58CLwCkaqtjXnJvKHXpNiwsguqE3pCey4RlmZrZkDZD0nbSl07vgW+pjf7bJHRPv\nqLHr5V7bu1kI71TwrmkZ1707HCb/1nCw+XI291va0CFCu/XrxLxpfPRP0q1AuD9I\n2JgwSG+B5QKBgQChu93tK5xB+tl8abSBUMIsISe6q+ydIXWtCqSmp0VRtVgG7NbO\nyTvvc4UOWyrhYM6FNJCFqX2eDqVKiphgGyZKCVrY3wocHIlN0QBwy5kljykc+e1Q\nO+vktBCky5tK3QiQ0QWql2cDjzzBVHMfoTUO8X/r26iSOVBLvIB7dBRZMQKBgCrX\nlSpdHNzq4RexZffE/rf2F2YPB+xe064Us/Ku9H0/ZuF/eLjIo4gCJsyVEXXqUCwq\nTd8ayuLjmMFXE24rXcMScovi3pyFNdGU+qhAvtg9onffOsN6qZSfDWpwUVl5ImxR\nIOM8enjyzu3yv+iIzqa68QDuRYwOdQFDSKQUI601AoGAOUplpPXwCGK5qdblNQYF\nt6DwXAUE9I0nmUK+FWRqPoXtNRzvsdCQSBfHG6UWAZCd1PfKwr76F9VqxNDyx+ir\nasnACBfwJRXhktFfGtNWcddw/TIrU80/oFWFLcx9YT9mfGnoPNxwpaIEcevPqeNV\nNyi0ZivnDjasy7sDhuUVoVQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "barberapp-430614@appspot.gserviceaccount.com",
+  "client_id": "115455229502951647899",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/barberapp-430614%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
