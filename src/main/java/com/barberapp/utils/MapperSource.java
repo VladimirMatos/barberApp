@@ -27,10 +27,11 @@ public class MapperSource {
 
         List<E> data = mapList(source.data(), targetClass);
 
-        paginationResponseDto.page = source.pages();
-        paginationResponseDto.totalPages = source.totalPages();
-        paginationResponseDto.data = data;
+        paginationResponseDto.setPage(source.pages());
+        paginationResponseDto.setTotalPages(source.totalPages());
+        paginationResponseDto.setData(data);
 
         return paginationResponseDto;
     }
+
 }

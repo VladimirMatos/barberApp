@@ -7,25 +7,15 @@ import com.barberapp.user.model.ImageModel;
 import com.barberapp.user.model.UserModel;
 import com.barberapp.user.repository.UserRepository;
 import com.barberapp.utils.*;
-import com.google.cloud.storage.BlobId;
-import com.google.cloud.storage.BlobInfo;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.Response.Status;
 import org.bson.types.ObjectId;
-import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
-import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.jboss.resteasy.reactive.multipart.FileUpload;
-import org.jboss.resteasy.reactive.server.multipart.MultipartFormDataInput;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @ApplicationScoped

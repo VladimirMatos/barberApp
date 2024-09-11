@@ -6,13 +6,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.bson.types.ObjectId;
 
-import java.util.List;
 
 @Data
 public class ServicePricePopulateResponseDto {
     @JsonProperty("_id")
     public ObjectId id;
-    private UserResponseDto user;
-    private List<ServiceResponseDto> service;
+    private UserResponseDto userModel;
+    private ServiceResponseDto serviceModel;
     private Double price;
 }
